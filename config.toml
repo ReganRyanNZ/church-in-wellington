@@ -1,0 +1,113 @@
+baseurl = "http://churchinwellington.org/"
+languageCode = "en-us"
+title = "Church in Wellington"
+theme = "hugo-strata-theme"
+
+[params]
+  # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+  name = "Church in Wellington"
+  description = "Dear believers in Christ, meeting together as the church, awaiting His coming."
+
+  # Enable Google Analytics by inserting your tracking code
+  googleAnalytics = ""
+
+
+  [params.sidebar]
+    # Replace the avatar with a picture of your own under static/images
+    avatar = "avatar.jpg"
+    # Use Markdown to format the string. This works nearly all over the theme
+    bio = "**We warmly welcome you** to meet with us and receive, love, and enjoy the Lord as members of His Body."
+    # The icons will be shown if you enter your username
+    # twitter = "spf13"
+    # github = "spf13"
+    # dribbble = ""
+    # facebook = ""
+    # googleplus = ""
+    # flickr = ""
+
+    # copyright = [
+    #   "&copy; John Doe",
+    #   "Design: [HTML5 UP](//html5up.net)",
+    #   "Demo Images: [Unsplash](//unsplash.com/)"
+    # ]
+
+
+  [params.about]
+    title = "The Church in Wellington"
+    content = "We are believers in the Lord Jesus Christ who have received Him as our Saviour and life. He is the most excellent and enjoyable Person.  We love Him and endeavour to give Him the first place in all things.  We rejoice to be cleansed by the blood of Jesus, God’s Son, born again of the Father’s divine life, and filled with the Holy Spirit. We highly treasure the Holy Bible as God’s revelation of Himself and of His eternal purpose.  We hold the common faith which is revealed in the Bible and is common to all genuine believers.  As is true of all believers in Christ, we are members of His one Body, the church.  In order to practice the oneness of the Body with all the Christians in Wellington, we meet as simply \"the church in Wellington\"."#  We are in fellowship with thousands of local churches worldwide to express the one Body of Christ"
+
+
+  [params.portfolio]
+    title = "Recent Work"
+
+    # The images and thumbnails are stored under static/images
+    # Create and change subfolders as you like
+    [[params.portfolio.gallery]]
+      image = "fulls/01.jpg"
+      thumb = "thumbs/01.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/02.jpg"
+      thumb = "thumbs/02.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/03.jpg"
+      thumb = "thumbs/03.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/04.jpg"
+      thumb = "thumbs/04.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/05.jpg"
+      thumb = "thumbs/05.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/06.jpg"
+      thumb = "thumbs/06.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+
+  [params.contact]
+    title = "Get In Touch"
+    content = "If you would like to meet with us, know more about our faith, or have any questions"
+
+    address = [
+      "82 Woodburn Road",
+      "Wellington",
+      "New Zealand"
+    ]
+    phone = "000-000-0000"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+      #
+      # What you need to do for the setup?
+      #
+      # - set your email address under 'email' below
+      # - upload the generated site to your server
+      # - send a dummy email yourself to confirm your account
+      # - click the confirm link in the email from www.formspree.io
+      # - you're done. Happy mailing!
+    email = "hello@example.com"
+
+    [params.contact.form]
+      # Set custom strings for the form if your native
+      # language isn't English
+      name = "Name"
+      email = "Email"
+      message = "Message"
+      submit = "Send message"
